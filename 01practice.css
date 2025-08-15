@@ -1,0 +1,85 @@
+
+/* add styles global star[*] */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.logo {
+  font-size: 2.1rem;
+  font-weight: 700px;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+  color: #4f8cff;
+}
+.alpha-tagline{
+    font-size: 1.2rem;
+    font-weight: 500px;
+    letter-spacing: 1px;
+    margin-bottom: 2px;
+    color: #4f8cff;
+}
+
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.alpha-links{
+
+display: block;
+  margin: 5px auto;
+  text-align: center;
+  margin-left:0px;
+}
+
+.login-card {
+  background-color:#FFEFE2;
+  height: 400px;
+  border-radius: 10px;
+  padding: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.form-group label {
+  display: inline-block;
+  width: 100px;
+  font-weight: bold;
+}
+.form-group input {
+  width: 250px;
+  padding: 6px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-button {
+  width: 250px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #4f8cff;
+  display: block;
+  margin-left:100px;
+}
+.creat-account {
+  width: 250px;
+  height: 40px;
+  background-color: yellow;
+  border-radius: 8px;
+  display: block;
+  margin-left:100px;
+}
+
+body {
+  background-color: #FFF7F0;
+  min-height: 100vh;
+}
